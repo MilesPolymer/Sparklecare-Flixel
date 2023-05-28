@@ -15,7 +15,7 @@ class PlayState extends FlxState
 		super.create();
 
 		sprite = new FlxSprite();
-		sprite.loadGraphic(AssetPaths.barryill__png);
+		sprite.loadGraphic(AssetPaths.barryIll__png);
 		sprite.x = 100;
 		sprite.y = 0;
 		add(sprite);
