@@ -1,0 +1,6 @@
+#VS Code
+export/
+.vscode/
+
+.DS_Store
+desktop.ini
