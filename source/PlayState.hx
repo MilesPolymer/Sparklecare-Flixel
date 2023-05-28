@@ -16,9 +16,10 @@ class PlayState extends FlxState
 
 		sprite = new FlxSprite();
 		sprite.loadGraphic(AssetPaths.barryIll__png);
-		sprite.x = 100;
+		sprite.x = 90;
 		sprite.y = 0;
 		add(sprite);
+		FlxTween.tween(sprite, {x: FlxG.width - sprite.width, y: FlxG.height - sprite.height, angle: 360.0}, 5, {type: FlxTween.PINGPONG});
 	}
 
 	override public function update(elapsed:Float)
